@@ -5,7 +5,7 @@ int main() {
   int velosDispos = 20;
   int capacite = 20;
   int choix;
-
+do {
   cout << "******* Gestion d'une station Vélô ********" << endl << endl;
   cout << "------------------------------------------- " << endl;
   cout << "Vélos disponibles : " << velosDispos << endl;
@@ -39,6 +39,9 @@ case 1:
 
       case 4 : default :
   cout<< "Au revoir";
-    return 0;
-    }
+}   
+} while (choix < 4);
+        
+        
+        return 0;
 }
